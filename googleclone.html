@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+  <head>
+    <title style="color: red;">New Tab</title>
+  </head>
+  <body style="background-image: url('coolsky2.jpg');">
+    <select>
+      <option value="large">Large sized text</option>
+      <option value="medium">Medium sized text</option>
+      <option value="small">Small sized text</option>
+    </select>
+    <script>
+      document.querySelector('select').onchange = function() {
+        document.querySelector('body').style.fontSize = this.value;
+        (document).ready(function() { $("#voiceapi").bind('webkitspeechchange', function(e) {
+          var val = $(this).val();
+
+      if(val == "open face book") {window.location.replace("http://fb.com");      }
+      });});
+      }
+    </script>
+    <a style="text-align: center;" href="https://mail.google.com/mail/u/0/#inbox">GMAIL</a>
+    <a style="text-align: center;" href="https://youtube.com">YouTube</a>
+    <div style="text-align: center">
+      <h1 style="color: black;">
+        <a href="mygoogle.html" target="_blank">+</a>
+      </h1>
+        <form style="text-align: center;"action="https://www.google.com/search" method="get" target="_blank">
+                <input name="q" type="text">
+                <input type="submit" value="SEARCH">
+        </form>
+    <h1 style="color: blue; text-align: center;">G</h1>
+    <h1 style="color: red; text-align: center;">O</h1>
+    <h1 style="color: orange; text-align: center;">O</h1>
+    <h1 style="color: blue; text-align: center;">G</h1>
+    <h1 style="color: green; text-align: center;">L</h1></h1>
+    <h1 style="color: red; text-align: center;">E</h1>
+  </body>
+</html>
